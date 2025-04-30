@@ -132,7 +132,7 @@ const keyboard$ = watchKeyboard()
 /* Set up media observables */
 const viewport$ = watchViewport()
 const tablet$   = watchMedia("(min-width: 960px)")
-const screen$   = watchMedia("(min-width: 1220px)")
+const screen$   = watchMedia("(min-width: 960px)")
 const print$    = watchPrint()
 
 /* Retrieve search index, if search is enabled */
